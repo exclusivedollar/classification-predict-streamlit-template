@@ -214,7 +214,7 @@ def main():
 
 
 
-			st.success("Text Categorized as: {}".format(prediction))
+		st.success("Text Categorized as: {}".format(prediction))
 		
 	if selection == "About Us":
 		st.info("Explore Data Scientists")
