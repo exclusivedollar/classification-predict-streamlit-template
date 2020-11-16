@@ -177,7 +177,7 @@ def main():
 		   st.markdown("* Class 0 tweets")
 		   st.markdown("'RT @CivilJustUs: How do they expect us to care about global warming with all this penguin on penguin crime?? https://t.co/HypysWHvVV'")
 		   st.markdown("The keyword that is used the most when discussing climate change is #climate followed by #climatechange.#Trump is a prominent hashtag in class 0 as well.Donald Trump's views on climate change is discussed in the class.An interesting hashtag used by people is #BeforeTheFlood which is a movie that depicts the impacts of climate change on the Earth,as well as #amreading people use this hashtage to tell mention what they a book or article they are currently reading. The sentiments within class 0 are open conversations surrounding climate change including people asking questions about climate change as well as sarcasm")
-		   st.image('resources/imgs/sentiments(0).png',use_column_width=True)
+		   st.image('resources/imgs/sentiments(0).PNG',use_column_width=True)
 
 		   st.markdown("* Class 1 tweets")
 		   st.markdown("'RT @AstroKatie: Governments of several world powers are failing us on climate change. We need to act without them if we want any hope for tÃ¢â‚¬Â¦'")
