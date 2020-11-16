@@ -141,8 +141,8 @@ def main():
 		   st.subheader("==========================================================")
 		   st.subheader("Distribution of sentiments")
 		   st.markdown("As seen in the bar graph, sentiment class 1 has the highest number of tweets in the train data accounting for 8530 tweets(53.92%).The lowest sentiment class is class -1 which accounts for 1296 tweets (8.19%).The distribution of sentiments classes are imbalanced because the classes do not have the same ammount of tweets in their class as seen in dataframe which compares the value counts and percentage of each sentiment class. The class imbalance of the training data has an impact on the classification made on the unseen data (testing data) in the modeling phase.A class imbalance could result in the model classifying most of the tweets into sentiment class 1 since the model gets better a classifying class 1 tweets as the model has more evidence of class 1 tweets.This will be taken into consideration in the preprocessing and modeling section of the notebook")
-		   st.image('resources/imgs/sentiments(graph).png',use_column_width=True)
-		   st.image('resources/imgs/sentiments.png',use_column_width=True)
+		   st.image('resources/imgs/sentiments(graph).PNG',use_column_width=True)
+		   st.image('resources/imgs/sentiments.PNG',use_column_width=True)
 		   st.subheader("==========================================================")
 		   
 		if st.checkbox("The main topics on climate change"):
@@ -159,12 +159,12 @@ def main():
 		   st.subheader("==========================================================")
 
 		   st.subheader("Wordcloud- Vocabulary from tweets:")
-		   st.image('resources/imgs/wordcloud.png',use_column_width=True)
+		   st.image('resources/imgs/wordcloud.PNG',use_column_width=True)
 		   st.subheader("==========================================================")
 		
 		   st.subheader("The top 10 influencial Twitter accounts in the climate change debate")
 		   st.markdown("The accounts that recieved the most mentions are Twitter accounts that have engaged with the climate change topic.Twitter users mention these accounts when reposting(retweeting) the twitter accounts sentiment on climate change or responding to the twitter accounts comment on climate change.Within the data these Twitter accounts have played a vital role in fueling the climate change debate on Twitter.")
-		   st.image('resources/imgs/accounts.png',use_column_width=True)
+		   st.image('resources/imgs/accounts.PNG',use_column_width=True)
 		   
 		   #Sentiments
 		   st.subheader("==========================================================")
@@ -172,7 +172,7 @@ def main():
 		   st.markdown("* Class -1 tweets")
 		   st.markdown("In class -1 the hashtag that was used the most is #MAGA and the second highest being #climate.These keywords were the most used when people were discussing their sentiments concerning climate change.Other interesting hashtags that form part of the top ten hashtags used in class one are #fakenews and #ClimateScam which insinuate that some of the people who were tweeting about climate change believe that is is simply fake news or a scam. The third highest hashtag used is #Trump when discussing climate change. The class focuses more on discussing climate change as being linked to politics hence the hashtag that has been used the most is #MAGA as well as the example of one of the tweets provided in the cell above.")
 		   st.markdown("RT @Cernovich: Same 'experts' who said Hillary would win claim 'climate change' is real. LOL! Go away, morons, you know nothing and you losÃ¢â‚¬Â¦")
-		   st.image('resources/imgs/sentiments(-1).png',use_column_width=True)
+		   st.image('resources/imgs/sentiments(-1).PNG',use_column_width=True)
 		   
 		   st.markdown("* Class 0 tweets")
 		   st.markdown("'RT @CivilJustUs: How do they expect us to care about global warming with all this penguin on penguin crime?? https://t.co/HypysWHvVV'")
@@ -182,12 +182,12 @@ def main():
 		   st.markdown("* Class 1 tweets")
 		   st.markdown("'RT @AstroKatie: Governments of several world powers are failing us on climate change. We need to act without them if we want any hope for tÃ¢â‚¬Â¦'")
 		   st.markdown("The opinions on climate change in class 1 shift towards climate change does exist as the conversations in this class discuss a movie called Before the flood.The movie highlights the impact of climate change on the Earth.As well as using the hashtag #ActOnClimate, the tweets associated with the hastag on Twitter mainly discuss ways to combat climate change (http://www.tweepy.net/hashtag/ActOnClimate).")
-		   st.image('resources/imgs/sentiments(1).png',use_column_width=True)
+		   st.image('resources/imgs/sentiments(1).PNG',use_column_width=True)
 		   
 		   st.markdown("* Class 2 tweets")
 		   st.markdown("'RT @tveitdal: We only have a 5 percent chance of avoiding ‘dangerous’ global warming, a study finds https://t.co/xUBTqNxhkK https://t.co/of…'")
 		   st.markdown("The opinions in class one mainly focus on the climate this is evident in the high hashtag count of the word #climate, the second highest is #enviroment .The class is mainly focused on informing people about climate change and its effect on the enviroment.")
-		   st.image('resources/imgs/sentiments(2).png',use_column_width=True)
+		   st.image('resources/imgs/sentiments(2).PNG',use_column_width=True)
 		   st.subheader("==========================================================")
 		   
 		if st.checkbox("The key findings from the Exploratory Data Analysis(EDA)"):
@@ -298,27 +298,27 @@ def main():
 		st.markdown("")
 		st.markdown("")
 		st.info("1. Nthabiseng Moela")
-		st.image('resources/imgs/Nthabi.png')
+		st.image('resources/imgs/Nthabi.PNG')
 		st.markdown("* Github account:NthabisengMoela")        
 		st.markdown("* email:nthabisengmoela1@gmail.com")
 		st.markdown("")
 		st.info("2.Bukelwa Mqhamane")
-		st.image('resources/imgs/Bukelwa.png',width=300)
+		st.image('resources/imgs/Bukelwa.PNG',width=300)
 		st.markdown("* Github account:")        
 		st.markdown("* email:bmqhamane@gmail.com")
 		st.markdown("")
 		st.info("3. Mfumo Baloyi")
-		st.image('resources/imgs/Mfumo.png')
+		st.image('resources/imgs/Mfumo.PNG')
 		st.markdown("* Github account : MfumoB")        
 		st.markdown("* Email:www.baloyimfumoe@gmail.com")
 		st.markdown("")
 		st.info("4. Sammy Maakwana")
-		st.image('resources/imgs/Sammy.png')
+		st.image('resources/imgs/Sammy.PNG')
 		st.markdown("* Github account:exclusivedollar")        
 		st.markdown("* email:maakwana@gmail.com")
 		st.markdown("")
 		st.info("5. Chuene Mokgokong")
-		st.image('resources/imgs/Chuene.png')
+		st.image('resources/imgs/Chuene.PNG')
 		st.markdown("* Github account:Grewies")        
 		st.markdown("* email:mokgokonggrewies01@gmail.com")
 #######################################################
