@@ -203,12 +203,9 @@ def main():
 		st.markdown("Predictive modeling is a process that uses data and statistics to predict outcomes with classification data models. These models can also be used to predict our twitter data. We get predictions from models such as Logistic Regression, Decision Tree Classifier, Random Forest Classifier and many more.")
 		st.subheader("==========================================================")
 		st.markdown("LogisticRegression- Is used to obtain odds ratios in the presence of more than one exploratory variable. It explains the relationship between one dependent binary variable and one or more independent variables")
-		st.subheader("==========================================================")
-		st.markdown("Random Forest-  is an ensemble of decision trees. This is to say that many trees, constructed in a certain “random” way form a Random Forest. Each tree is created from a different sample of rows and at each node, a different sample of features is selected for splitting. Each of the trees makes its own individual prediction. These predictions are then averaged to produce a single result.")
+		st.subheader("=========================================================")
 		st.subheader("==========================================================")
 		st.markdown("Decision Tree- builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes.")
-		st.subheader("==========================================================")
-		st.markdown("Random Forest is the model that performs best, you can check the other models to compare the results")
 		st.subheader("==========================================================")
 		# Creating a text box for user input
 		tweet_text = st.text_area("Enter Text","Type Here")
@@ -225,28 +222,28 @@ def main():
 			# You can use a dictionary or similar structure to make this output
 			# more human interpretable.
 
-		if st.button("Random forest"):
+		#if st.button("Random forest"):
 		# Transforming user input with vectorizer
-			vect_text = tweet_cv.transform([tweet_text]).toarray()
+			#vect_text = tweet_cv.transform([tweet_text]).toarray()
 		# Load your .pkl file with the model of your choice + make predictions
 		# Try loading in multiple models to give the user a choice
-			predictor = joblib.load(open(os.path.join("resources/Random_Forest.pkl"),"rb"))
-			prediction = predictor.predict(vect_text)
+			#predictor = joblib.load(open(os.path.join("resources/Random_Forest.pkl"),"rb"))
+			#prediction = predictor.predict(vect_text)
 
 		# When model has successfully run, will print prediction
 		# You can use a dictionary or similar structure to make this output
 		# more human interpretable.
 			
-			if prediction[0] == 1:
-  				st.success('Your message has been classified as showing positive belief in climate change')
-			elif prediction[0] == 0:
-  				st.success('Your message has been classified as showing being neutral towards climate change')
-			elif prediction[0] == 2:
-  				st.success('Your message has been classified as news')
-			else:
-  				st.success('Your message has been classified as showing negative belief in climate change')
+			#if prediction[0] == 1:
+  				#st.success('Your message has been classified as showing positive belief in climate change')
+			#elif prediction[0] == 0:
+  				#st.success('Your message has been classified as showing being neutral towards climate change')
+			#elif prediction[0] == 2:
+  				#st.success('Your message has been classified as news')
+			#else:
+  				#st.success('Your message has been classified as showing negative belief in climate change')
 
-			st.success("Text Categorized as: {}".format(prediction))
+			#st.success("Text Categorized as: {}".format(prediction))
 			
 		if st.button("Decision Tree"):
 		# Transforming user input with vectorizer
