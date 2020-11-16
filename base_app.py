@@ -309,7 +309,7 @@ def main():
 		st.markdown("")
 		st.info("3. Mfumo Baloyi")
 		st.image('resources/imgs/Mfumo.PNG')
-		st.markdown("* Github account : MfumoB")        
+		st.markdown("* Github account : mfumoB")        
 		st.markdown("* Email:www.baloyimfumoe@gmail.com")
 		st.markdown("")
 		st.info("4. Sammy Maakwana")
